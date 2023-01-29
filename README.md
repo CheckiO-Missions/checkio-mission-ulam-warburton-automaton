@@ -3,7 +3,7 @@ CheckiO Mission
 
 The repository is used for sharing missions on CheckiO. 
 
-URL for Python version: https://py.checkio.org
+URL for Python version: https://py.checkio.org/uk/mission/ulam-warburton-automaton/
 
 URL for TypeScript version: https://js.checkio.org
 
