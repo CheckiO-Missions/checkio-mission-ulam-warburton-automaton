@@ -1,0 +1,30 @@
+<!-- Describe task in general -->
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}UWCA.png" alt="example" style="max-height: 300px"/>
+</p>
+<p style="text-align: justify;">
+    Cette mission est dédiée  <a target="_blank" href="https://en.wikipedia.org/wiki/Ulam–Warburton_automaton">automate cellulaire d'Ulam-Warburton (UWCA)</a> - un motif fractal bidimensionnel qui se développe sur une grille régulière de cellules composées de carrés.</p>
+<p style="text-align: justify;"><b>
+    En partant d'une seule case initialement activée, toutes les autres étant désactivées, les itérations successives sont générées en activant toutes les cases qui partagent exactement un côté avec une case activée. 
+  </b></p> 
+<p style="text-align: justify;">
+    Ce modèle est présenté parmi d'autres (je vous recommande donc de tout regarder) dans la vidéo suivante avec Neil Sloane (fondateur de <a target="_blank" href="https://oeis.org">l'Encyclopédie en ligne des séquences d'entiers</a>) à partir de 8min 10s. </p>
+<p style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_UtCli1SgjI?si=dmBh6pSc9k12TiD-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+<p style="text-align: justify;">
+    Le <b>jeu géométrique</b> de ce motif et d'autres peuvent être observé <a target="_blank" href="https://oeis.org/A139250/a139250.anim.html">ici</a>. Cela facilitera la résolution du problème et offre un spectacle fascinant !</p>
+<p style="text-align: justify;"><b>
+    Donc, votre fonction doit renvoyer le nombre de cellules activées après le nombre specifié d'étapes.
+</b></p>
+<!-- Explain input and output values -->
+<p>
+    <strong>Entrée:</strong> Nombre d'étapes {% if is_js %}Number{% else %}entier{% endif %}.
+</p>
+<p>
+    <strong>Sortie:</strong> Nombre de cellules {% if is_js %}Number{% else %}entier{% endif %}.
+</p>
+<p>
+    <strong>Exemples:</strong>
+</p>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
